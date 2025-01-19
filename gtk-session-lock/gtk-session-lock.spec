@@ -1,10 +1,11 @@
+%global packager Thomas Lake <tom@leftdiodes.co.uk>
+%global forgeurl https://github.com/Cu3PO42/gtk-session-lock
 
 Name:           gtk-session-lock
 Version:        0.2.0
 Release:        %autorelease
 Summary:        A library for building screen lockers using GTK3 with the ext-session-lock-v1 Wayland protocol.
 
-%global forgeurl https://github.com/Cu3PO42/gtk-session-lock
 %forgemeta
 
 License:        GPL-3.0-or-later AND MIT
@@ -55,4 +56,4 @@ developing applications that use %{name}.
 
 
 %changelog
-%autochangelog 
+%autochangelog
