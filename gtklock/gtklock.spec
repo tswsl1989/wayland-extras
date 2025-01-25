@@ -12,8 +12,8 @@ License:        GPL-3.0
 URL:            %{forgeurl}
 Source0:        %{forgesource}
 
-BuildRequires:  gcc, meson, wayland-devel, scdoc, pam-devel, gtk3-devel >= 3.22.0, gtk-session-lock >= 0.2.0, pkgconfig(gtk-session-lock)
-Requires:       gtk3, pam
+BuildRequires:  gcc, meson, wayland-devel, scdoc, pam-devel, gtk3-devel >= 3.22.0, pkgconfig(gtk-session-lock)
+Requires:       gtk3, gtk-session-lock >= 0.2.0, pam
 
 %description
 
