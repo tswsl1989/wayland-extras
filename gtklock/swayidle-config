@@ -1,0 +1,6 @@
+timeout 90 '/usr/bin/gtklock -d -H -S -T 20 -M eDP-1'
+timeout 120 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"'
+before-sleep '/usr/bin/gtklock -d -H -S -T 20 -M eDP-1'
+after-resume '/usr/bin/gtklock -d -H -S -T 20 -M eDP-1'
+lock '/usr/bin/gtklock -d -H -S -T 20 -M eDP-1'
+unlock 'pkill -SIGUSR1 gtklock'
