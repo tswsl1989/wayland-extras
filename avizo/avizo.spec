@@ -14,7 +14,7 @@ URL:            %{forgeurl}
 Source0:        %{forgesource}
 
 BuildRequires:  gcc, meson, vala, cmake, gtk3-devel, gtk-layer-shell-devel
-Requires:       gtk, gtk-layer-shell, brightnessctl, pamixer >= 1.6
+Requires:       gtk3, gtk-layer-shell, brightnessctl, pamixer >= 1.6
 
 %description
 
