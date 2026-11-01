@@ -2,7 +2,7 @@
 %global forgeurl https://github.com/jovanlanik/gtklock
 
 Name:           gtklock
-Version:        4.0.0
+Version:        5.0.0
 Release:        %autorelease
 Summary:        A lockscreen based on gtkgreet. It uses the ext-session-lock Wayland protocol. Works on sway and other wlroots-based compositors.
 
