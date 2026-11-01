@@ -32,10 +32,7 @@ Requires:       gtk3, gtk-session-lock >= 0.2.0, pam
 %files
 %license LICENSE
 %{_bindir}/gtklock
-%{_datadir}/locale/cs/LC_MESSAGES/gtklock.mo
-%{_datadir}/locale/de/LC_MESSAGES/gtklock.mo
-%{_datadir}/locale/sr/LC_MESSAGES/gtklock.mo
-%{_datadir}/locale/sr@latin/LC_MESSAGES/gtklock.mo
+%{_datadir}/locale/*/LC_MESSAGES/gtklock.mo
 %{_mandir}/man1/gtklock.1.gz
 %{_sysconfdir}/pam.d/gtklock
 
